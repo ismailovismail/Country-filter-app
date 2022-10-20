@@ -1,0 +1,119 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+}
+header .container {
+  display: flex;
+  justify-content: center;
+}
+header .container form {
+  width: 100%;
+  display: flex;
+  gap: 5px;
+}
+header .container input {
+  width: 100%;
+  padding: 5px;
+}
+
+.country-card {
+  width: 100%;
+  height: auto;
+}
+.country-card .container-fluid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.country-card .container-fluid .row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  gap: 10px;
+}
+.country-card .container-fluid .row .card {
+  display: flex;
+}
+.country-card .container-fluid .row .card img {
+  height: 150px;
+}
+.country-card .container-fluid .row .card .card-title {
+  font-size: 18px;
+}
+
+.country-borders {
+  height: auto;
+}
+.country-borders .container-fluid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.country-borders .container-fluid .row {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  height: auto;
+  justify-content: center;
+}
+.country-borders .container-fluid .row img {
+  height: 150px;
+}
+.country-borders .container-fluid .row .card-title {
+  font-size: 15px;
+}/*# sourceMappingURL=style.css.map */

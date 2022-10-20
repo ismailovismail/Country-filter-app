@@ -1,0 +1,52 @@
+.country-card{
+    width:100%;
+    height: auto;
+    .container-fluid{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .row{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            height: auto;
+            gap: 10px;
+            .card{
+                img{
+                    
+                    height: 150px;
+                }
+                display: flex;
+                .card-title{
+                    font-size: 18px;
+                }
+                
+
+            }
+        }
+    }
+}
+
+.country-borders{
+    height:auto;
+  
+    .container-fluid{
+        width: 100%;
+       display: flex;
+       justify-content: center;
+        .row{ width: 100%;
+               display: flex;
+               gap: 10px;
+               height: auto;
+               justify-content: center;
+              
+               img{
+                
+                height: 150px;
+               }
+               .card-title{
+                font-size: 15px;
+               }
+        }
+    }
+}

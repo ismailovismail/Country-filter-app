@@ -5,7 +5,7 @@ class Search extends Component {
         super()
         this.state = {
             keyword: '',
-           
+
 
         }
     }
@@ -17,9 +17,9 @@ class Search extends Component {
     }
     searchSubmit = (e) => {
         e.preventDefault()
-       this.props.searchValue(this.state.keyword)
-          
-        
+        this.props.searchValue(this.state.keyword)
+        e.target.children[0].value = ''
+
 
     }
 

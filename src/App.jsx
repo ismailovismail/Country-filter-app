@@ -40,11 +40,13 @@ import Cards from './components/Cards';
    
     return (
       <div>
+        <h1 className='mx-3 text-danger' style={{fontSize:'20px'}}>Main Country</h1>
        <header>
        <div className="container mt-3">
         <Search searchValue={this.searching} />
         </div>
        </header>
+       <h1 className='mx-3 text-primary' style={{fontSize:'20px'}}>Neighbour Countries</h1>
        <section className='country-card'>
         <div className="container-fluid">
           <p className="error">{this.props.error}</p>
